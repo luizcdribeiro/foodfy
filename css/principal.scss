@@ -1,0 +1,33 @@
+.principal {
+  background-color: #FBDFDB;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  height: 366px;
+}
+
+.principal__info {
+  margin-top: 117px;
+  margin-left: 60px;
+  margin-right: 248px;
+  margin-bottom: 117px;
+  
+  h1 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  p {
+    max-width: 326px;
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 70%;
+    line-height: 28px;
+  }
+}
+
+.principal__img {
+  margin-top: 66px;
+  margin-bottom: 0;
+}
