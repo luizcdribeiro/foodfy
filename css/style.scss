@@ -7,6 +7,9 @@ body {
 .container {
   max-width: 940px;
   margin: 0 auto;
+  @media screen and (max-width: 414px){
+    max-width: 100%;
+  }
 }
 
 @import 'reset';
